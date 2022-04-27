@@ -1,0 +1,17 @@
+body {
+  width: 80%;
+  background-color: gray;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#types-vanilla > div {
+  border: 5px red solid;
+  margin: 20px;
+  padding: 10px 10px 10px 100px;
+}
