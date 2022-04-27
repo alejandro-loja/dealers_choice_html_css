@@ -1,17 +1,45 @@
 body {
   width: 80%;
   background-color: gray;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 40px;
 }
 
 h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
 }
+
 h3 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+#types-vanilla {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
 }
 
 #types-vanilla > div {
-  border: 5px red solid;
-  margin: 20px;
-  padding: 10px 10px 10px 100px;
+  border: 1px black solid;
+  padding: 40px;
+}
+
+img {
+  border: 2px black solid;
+  width: 100px;
+}
+
+#vanilla-products {
+  display: flex;
+}
+
+#vanilla-products > div {
+  border: 1px black solid;
 }
